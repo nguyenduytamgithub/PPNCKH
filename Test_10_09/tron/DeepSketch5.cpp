@@ -77,7 +77,7 @@ void Gradient(Image&M, int len) {
 					}
 				}
 			M.G[i][j] = abs(M.Gx[i][j]) + abs(M.Gy[i][j]);  
-			M.angle[i][j] = atan ((double) M.Gy[i][j] / ((double) M.Gx[i][j] + 0.0000001) );
+			M.angle[i][j] = atan ((double) M.Gy[i][j] / ((double) M.Gx[i][j] + 0.0000001) ) + 1.57;
 		}
 }
 
@@ -90,7 +90,7 @@ int cnt[10];
 double res[10]; 
 
 int inBlock(double angle, int k) { 
-	int block = (int)((angle+1.57) / (3.14/k)); 
+	int block = (int)((angle) / (3.14/k)); 
 	return block ; 
 }
 
@@ -100,20 +100,22 @@ void getResult(const Image&M, int block) {
 	for (int i = 0; i < M.rows; i++) 
 			for (int j = 0;  j < M.cols; j++) 
 				if (M.G[i][j]) {
+					printf("%0.5lf ", M.angle[i][j]);  
 					cnt[inBlock(M.angle[i][j], block)] ++; 
 					GradientPixel ++;  
 				}
+	printf("\n"); 
 	double value; 
 	vector <double> res; 
 	res.clear(); 
-	printf("%d %d ", 3, block); 
+	//printf("%d %d ", 1, block); 
 	for (int i = 0 ; i <= block ; i++) {
 		value = ((double)cnt[i] / GradientPixel);
 		res.push_back(value);  
 	}
-	for (int i = 0 ; i < res.size(); i++) 
-		printf("%0.5lf ", res[i]); 
-	printf("\n"); 
+	//for (int i = 0 ; i < res.size(); i++) 
+	//	printf("%0.5lf ", res[i]); 
+	//printf("\n"); 
 }
 
 string toString(int x) { 
@@ -129,7 +131,7 @@ char p[20];
 
 int main() { 
 	freopen("text.txt", "w", stdout); 
-	for (int block = 5; block <= 60 ; block += 5) { 
+	for (int block = 5; block <= 5 ; block += 5) { 
 		for (int i = 1; i <= 25; i++) { 
 			string s = toString(i) + ".txt"; 
 			for (int j = 0; j < s.length() ; j++) 
@@ -142,8 +144,9 @@ int main() {
 
 			M1.rows = n; 
 			M1.cols = m;  
-			for (int i = 0; i < M1.rows ; i++) 
-				scanf("%s", (M1.a[i]) ); 
+			for (int j = 0; j < M1.rows ; j++) 
+				scanf("%s", (M1.a[j]) ); 
+		//	if (i != 12) continue; 
 			Gradient(M1, 5);
 			getResult(M1, block);   
 		}
