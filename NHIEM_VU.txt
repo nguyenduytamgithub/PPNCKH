@@ -1,0 +1,10 @@
+Nhiệm vụ:
+HIếu: viết abstract từ thông tin của lem
+Lam: viết file gửi cho Hiếu viết tiếp introdue
+Tâm: đọc related work vào file latex_Tâm
+Tâm: tạo 1 file ref
+Hiếu: cũng ref
+Lam: cũng ref
+T.ANh: nhập ref, chỉnh tả
+đánh mã ref theo tên T1 H1 L1 A1	
+
