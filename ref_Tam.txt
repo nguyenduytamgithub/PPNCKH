@@ -1,0 +1,68 @@
+406pdf
+=========================
++ name paper: Sketch  Recognition	Algorithmsfor Comparing	Complex	and	Unpredictable	Shapes
++ name app:  Mechanix ----> what's that? ---->  a computer-assisted tutoring system for engineering students. 
++ method:    ----> three categories: gesture recognition , vision-based recognition, and geometric recognition. For non-truss shapes like forces and supports, Mechanix uses a geometric approach very similar to LADDER
++ result:  comparison algorithm achieved a recall of 0.991 with a precision of 0.691
+ref: [1]  MartinField, StephanieValentine, julie linsey, Tracy Hammond. Sketch  Recognition	Algorithmsfor Comparing	Complex	and	Unpredictable	Shapes
+		In Proceedings of the Twenty-Second International Joint Conference on Artificial Intelligenc pages 2436-2441, 2011
+	các đường dẫn kéo theo
+	
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+1502.00254.pdf
+=========================
++ name paper: FREEHAND SKETCH RECOGNITION USING DEEP FEATURES
++ name app: nope
++ method:    ----> We use two popular CNNs for our experiments ---> Convolutional Neural Networks
++ result:  Our results are an improvement over the existing state-of-the-art accuracies by 3% − 11%.
+ref: [2] Ravi Kiran Sarvadevabhatla,R. Venkatesh Babu. FREEHAND SKETCH RECOGNITION USING DEEP FEATURES
+		In Computer Vision and Pattern Recognition (cs.CV), ICIP-2015
+		
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+1581-8415-1-PB.pdf
+=========================
++ name paper:  A Sketch Recognition System for Recognizing Free-Hand Course of Action Diagrams
++ name app: nope
++ method:    ----> COA
++ result:  the system achieves an accuracy of 89.9% 
+ref: [3] T.Hammond,D.Logsdon,B.Paulson,J.Johnston,J.Peschel,A.Wolin, and P.Taele. A Sketch Recognition System for Recognizing Free-Hand Course of Action Diagrams
+Proceedings of the Twenty-Second Innovative Applications of Artificial Intelligence Conference (IAAI-10)
+	
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+1703.05605.pdf
+=========================
++ name paper: Deep Sketch Hashing: Fast Free-hand Sketch-Based Image Retrieval
++ name app: nope
++ method:    ----> In this paper, we speed up SBIR by introducing a novel binary coding method,named Deep Sketch Hashing(DSH)
++ result:   Our 128bit DSH leads to superior results with 0.138/0.142 and 0.210/0.105 improvements (MAP/precision@200) over the best-performing comparison methods on the two datasets, respectively.
+ref: [4] Li Liu1, Fumin Shen2, Yuming Shen1, Xianglong Liu3, and Ling Shao. Deep Sketch Hashing: Fast Free-hand Sketch-Based Image Retrieval
+		In Computer Vision and Pattern Recognition (cs.CV) CVPR2017
+		
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+seddati2015.pdf
+=========================
++ name paper: Deep Sketch: Deep Convolutional Neural Networks for Sketch Recognition and Similarity Search
++ name app: nope
++ method:    ---->  We used deep convolution neural networks (ConvNets)
+					 We make use of ConvNets features as a basis for similarity search using k-Nearest Neighbors (kNN).
++ result:   We reached an accuracy of 75.42%. 
+ref: [5] Omar Seddati, Stéphane Dupont, Saïd Mahmoudi. Deep Sketch: Deep Convolutional Neural Networks for Sketch Recognition and Similarity Search
+		In Content-Based Multimedia Indexing (CBMI), 2015 13th International Workshop on
+		
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+wang2016.pdf
+=========================
++ name paper: Sketch-a-Net: a Deep Neural Network that Beats Humans
++ name app: nope
++ method:    ---->  Convolutional Neural Networ
++ result:   (77.95% by our Sketch-a-Net vs. 73.1% for humans by a clear margin based on the study in (Eitz et al, 2012)
+ref: [6] Qian Yu, Yongxin Yang, Yi-Zhe Song, Tao Xiang, Timothy Hospedales. Sketch-a-Net: a Deep Neural Network that Beats Humans
+		In Computer Vision and Pattern Recognition (cs.CV); BMVC 2015
+		
+		
+		
